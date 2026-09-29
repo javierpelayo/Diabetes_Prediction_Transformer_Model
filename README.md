@@ -62,3 +62,7 @@ The training process will:
 - `model.py`: Model architectures (TabTransformer and BaselineDNN)
 - `dataloader.py`: Data preprocessing and loading utilities
 - `utils.py`: Plotting and utility functions
+
+### Conclusion
+
+Take a look at the report.pdf file in this repository. Any useful findings from our side will be in there.
