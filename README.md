@@ -1,8 +1,8 @@
 # Diabetes Prediction with Transformers
 
-This project implements two models for diabetes prediction using tabular data:
-1. A TabTransformer model that uses self-attention mechanisms
-2. A baseline Deep Neural Network (DNN)
+This project explores the application of transformer-based architectures for predicting diabetes from tabular health data. We compare a custom TabTransformer against a traditional Deep Neural Network (DNN) baseline and an Ensemble Model to evaluate the effectiveness of self-attention mechanisms in capturing complex inter-feature relationships within structured data.
+
+The TabTransformer, trained with a Focal Loss criterion, demonstrated superior performance, achieving an F1-score of 0.7907, AUC of 0.9779, and an accuracy of 96.57% on the validation set. This highlights the potential of transformer architectures to generalize well on complex, class-imbalanced medical datasets, as is consistent with the real world.
 
 ## Setup
 
