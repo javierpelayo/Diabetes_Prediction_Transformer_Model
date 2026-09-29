@@ -11,7 +11,17 @@ The TabTransformer, trained with a Focal Loss criterion, demonstrated superior p
 pip install torch pandas numpy sklearn matplotlib imblearn
 ```
 
-2. Place your diabetes dataset (CSV file) in the project directory.
+2. Place your diabetes dataset (CSV file) in the project directory, data should have the following columns in the same order:
+
+```
+gender, age, hypertension, heart_disease, smoking_history, bmi, HbA1c_level, blood_glucose_level, diabetes
+```
+
+Example row:
+
+```
+Female, 80.0, 0, 1, never, 25.19, 6.6, 140, 0
+```
 
 ## Usage
 
